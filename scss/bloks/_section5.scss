@@ -36,12 +36,17 @@
         justify-content: center;
     }
 
+    &__links {
+        text-decoration: none;
+    }
+
     &__item {
         margin-top: 30px;
         padding: 50px 40px;
         width: 353px;
         height: 393px;
         margin-right: 40px;
+        border-radius: 10px;
 
         &:nth-child(3) {
             margin-right: 0;
